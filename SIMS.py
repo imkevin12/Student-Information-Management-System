@@ -503,7 +503,7 @@ def set_clock():
     clock.after(200, set_clock)
 
 
-# *************** Intro Slider *************** #
+# *************** Intro Slider Function *************** #
 colors = ['black', 'white', 'black', 'black']
 def intro_slider():
     fg = random.choice(colors)
@@ -618,7 +618,7 @@ clock = Label(root, font=('open sans', 9, 'bold'), relief=RIDGE, borderwidth=2, 
 clock.place(x=0, y=10)
 set_clock()
 
-# *************** Slider *************** #
+# *************** Intro Slider *************** #
 str = 'Welcome to STUDENT INFORMATION MANAGEMENT SYSTEM'
 count = 0
 text = ''
